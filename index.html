@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myPortfloli</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @font-face {
+            font-family: NeueMontreal;
+            src: url(/NeueMontreal/NeueMontreal-Regular.otf);
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            justify-content: center;
+            font-family: NeueMontreal;
+            background-color: #FF412D;
+        }
+
+        h1 {
+            font-size: 6rem;
+            color: white;
+        }
+
+
+        a {
+            text-decoration: none;
+            margin-top: 4.5rem;
+            color: white;
+            border: 1px solid white;
+            padding: 1rem 2rem;
+            border-radius: 100px;
+            transition: ease-in 300ms; 
+            
+        }
+
+        a:hover {
+            color: #252525;
+            background-color: white;
+            transition: ease-in-out 300ms;    
+        }
+
+        sup {
+            font-size: .5rem;
+        }
+
+        .portflio__links {
+            display: flex;
+            gap: 1rem;
+        }
+
+       /* RESPONSIVE  */
+       @media only screen and (max-width: 900px) {
+  /* For Tablets: */    
+        h1 {
+            font-size: 5rem;
+        }
+}
+
+       @media only screen and (max-width: 800px) {
+  /* For Tablets: */      
+        h1 {
+            font-size: 4rem;
+        }
+}
+
+    @media only screen and (max-width: 600px) {
+  /* For Tablets: */    
+        h1 {
+            font-size: 3rem;
+        }
+    }
+
+    @media only screen and (max-width: 380px) {
+      /* For Tablets: */  
+        h1 {
+            font-size: 2rem;
+            }
+    
+        a {
+            padding: .4rem 1rem;
+            margin-top: 1.5rem;
+            }
+    }
+
+    @media only screen and (max-width: 375px) {
+  /* For Tablets: */
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        a {
+            padding: .4rem .8rem;
+        }
+}
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Creating the next level <br><span>digital products</span> </h1>
+        <div class="portflio__links">
+            <a href="">All</a>
+            <a href="">Design <sup>7</sup></a>
+            <a href="">Development <sup>12</sup></a>
+        </div>
+    </div>
+</body>
+</html>
